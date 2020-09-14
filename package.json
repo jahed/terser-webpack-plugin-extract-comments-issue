@@ -1,0 +1,16 @@
+{
+  "name": "terser-webpack-plugin-extract-comments-issue",
+  "version": "1.0.0",
+  "description": "Test repro for a Webpack issue.",
+  "scripts": {
+    "build": "webpack",
+    "test": "bash test.sh"
+  },
+  "author": "Jahed",
+  "license": "MIT",
+  "dependencies": {
+    "terser-webpack-plugin": "4.2.0",
+    "webpack": "4.44.1",
+    "webpack-cli": "3.3.12"
+  }
+}
